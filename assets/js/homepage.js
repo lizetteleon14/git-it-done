@@ -4,7 +4,7 @@ var repoContainerEl = document.querySelector("#repos-container");
 var repoSearchTerm = document.querySelector("#repo-search-term");
 
 var getUserRepos = function(user) {
-    // format the github api url
+    // Format the github api url
     var apiUrl = "https://api.github.com/users/" + user + "/repos";
 
     // make a request to the url, control how the app reacts to a 404 message
